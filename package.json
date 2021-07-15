@@ -1,6 +1,7 @@
 {
     "private": true,
     "scripts": {
+        "postinstall": "./node_modules/bower/bin/bower install",
         "dev": "npm run development",
         "development": "mix",
         "watch": "mix watch",
